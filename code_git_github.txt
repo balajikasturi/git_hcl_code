@@ -40,3 +40,4 @@ data = [("James","Sales",3000),("Michael","Sales",4600),
 
 df = spark.createDataFrame(data,["Name","Department","Salary"])
 df.show()
+df,printschema()
